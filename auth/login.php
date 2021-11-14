@@ -36,6 +36,7 @@
     					<input type="password" name="pass" placeholder="Password" required>
     					<input type="submit" name="login" value="Login"> 
     			</form>
+	<a href="<?php echo base_url()?>">Kembali ke Beranda</a>
 </body>
 </html>
 <?php
