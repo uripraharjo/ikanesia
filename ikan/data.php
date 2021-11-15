@@ -16,7 +16,7 @@ if (!isset($_SESSION['user'])) {
 </head>
 <body>
     <h1>Ikan</h1>
-    + Tambah Data Ikan | <a href="<?=base_url('dashboard')?>"><span class="text-danger">Dashboard</span></a>
+    <a href="add.php">+ Tambah Data Ikan </a> | <a href="<?=base_url('dashboard')?>"><span class="text-danger">Dashboard</span></a>
     <form class="form-inline" action="" method="post">    
         <input type="text" name="pencarian" placeholder="Pencarian">
         <button type="submit"><span aria-hidden="true">CARI</span></button>
